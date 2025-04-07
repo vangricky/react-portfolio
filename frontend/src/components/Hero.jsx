@@ -3,7 +3,7 @@ import rickyhero from '../assets/images/ricky-transparent-hero.png'
 
 const Hero = () => {
   return (
-    <div className='h-167 bg-gray-700 gap-10'>
+    <div className='h-[166.5] bg-gray-700 gap-10 z-auto overflow-hidden'>
         <div className='flex justify-between'>
             <div>
                 <img className='w-178 drop-shadow-[0_15px_40px_rgba(255,140,0,0.5)]' src={rickyhero} alt="" />
